@@ -1,0 +1,95 @@
+.resume {
+    height: 100%;
+    width: 95%;
+    position: absolute;
+    margin: 0px 0px 20px 20px;
+}
+
+.heading {
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background-color: rgb(70, 70, 70);
+    left: 0px;
+}
+
+.image {
+    position: inherit;
+    left: 44%;
+    top: 13%;
+}
+
+img {
+    border-radius: 100%;
+    border: 3px dotted rgba(255, 196, 0, 0.849);
+    height: 40%;
+    width: 30%;
+}
+
+.whitebgd {
+    position: inherit;
+    background-color: white;
+    height: 15%;
+    width: 100%;
+    top: 70%;
+}
+
+.name {
+    position: absolute;
+    color: black;
+    background-color: rgb(255, 196, 0);
+    height: 30%;
+    width: 30%;
+    text-align: center;
+    font-size: 45px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 60%;
+    left: 35%;
+    z-index: 2;
+}
+
+.address {
+    position: absolute;
+    height: 5%;
+    width: 100%;
+    top: 40%;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.content {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.left-content {
+    position: absolute;
+    border-right: 2px solid grey;
+    width: 44%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 30px 10px 30px;
+}
+
+.right-content {
+    position: absolute;
+    right: 30px;
+    width: 44%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: rgb(255, 196, 0);
+}
+
+li {
+    text-align: justify;
+}
